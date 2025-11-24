@@ -28,27 +28,27 @@ const SERVICES = [
   {
     title: "Equipment Supplies",
     desc: "Comprehensive solutions for your industrial needs.",
-    img: "/argenta/v1/images/equipmentsupply.jpg",
+    img: "/images/equipmentsupply.jpg",
   },
   {
     title: "Spare Parts",
     desc: "Comprehensive solutions for your industrial needs.",
-    img: "/argenta/v1/images/sparepart.jpg",
+    img: "/images/sparepart.jpg",
   },
   {
     title: "Used Equipment",
     desc: "Comprehensive solutions for your industrial needs.",
-    img: "/argenta/v1/images/equipments.png",
+    img: "/images/equipments.png",
   },
   {
     title: "Rental",
     desc: "Comprehensive solutions for your industrial needs.",
-    img: "/argenta/v1/images/rental.jpg",
+    img: "/images/rental.jpg",
   },
   {
     title: "Logistics",
     desc: "Multimodal transport by sea, road or air, route optimisation, insurance and preparation of export import paperwork. Full tracking until delivery to the client’s site.",
-    img: "/argenta/v1/images/logistics.jpg",
+    img: "/images/logistics.jpg",
   },
 ];
 
@@ -56,31 +56,31 @@ const SERVICES = [
 const EQUIPMENT = [
   {
     title: "Generators",
-    img: "/argenta/v1/images/generators.jpg",
+    img: "/images/generators.jpg",
   },
   {
     title: "Turbines",
-    img: "/argenta/v1/images/turbines.jpg", // Turbine
+    img: "/images/turbines.jpg", // Turbine
   },
   {
     title: "Engines",
-    img: "/argenta/v1/images/engines.jpg",
+    img: "/images/engines.jpg",
   },
   {
     title: "Compressors",
-    img: "/argenta/v1/images/compressor.jpg",
+    img: "/images/compressor.jpg",
   },
   {
     title: "Dryers",
-    img: "/argenta/v1/images/dryer.jpg",
+    img: "/images/dryer.jpg",
   },
   {
     title: "Industrial Pumps",
-    img: "/argenta/v1/images/industrialpump.jpg",
+    img: "/images/industrialpump.jpg",
   },
   {
     title: "Spare Parts Kits",
-    img: "/argenta/v1/images/sparepart.jpg",
+    img: "/images/sparepart.jpg",
   },
 ];
 
@@ -133,7 +133,7 @@ export default function Home() {
             </Grid>
             <Grid width={isMobile ? 6 / 6 : 3 / 6}>
               <Image
-                src={"/argenta/v1/images/aboutus.jpg"}
+                src={"/images/aboutus.jpg"}
                 alt={"title"}
                 width={isMobile ? 500 : 300}
                 height={200}

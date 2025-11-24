@@ -22,37 +22,37 @@ const EQUIPMENT = [
       "Gas Generators",
       "Propane Generators",
     ],
-    img: "/argenta/v1/images/generators.jpg",
+    img: "/images/generators.jpg",
   },
   {
     title: "Turbines",
     desc: "High-efficiency industrial turbines for power generation, including gas and steam models, with turnkey procurement and custom spare parts selection.",
-    img: "/argenta/v1/images/turbines.jpg",
+    img: "/images/turbines.jpg",
   },
   {
     title: "Engines",
     desc: "Industrial engines running on diesel, natural gas, or alternative fuels, designed for heavy-duty applications with reliable spare parts support.",
-    img: "/argenta/v1/images/engines.jpg",
+    img: "/images/engines.jpg",
   },
   {
     title: "Compressors",
     desc: "Oil-injected and oil-free stationary air compressors with pressure up to 20 bar and drive power up to 500 kW.",
-    img: "/argenta/v1/images/compressor.jpg",
+    img: "/images/compressor.jpg",
   },
   {
     title: "Dryers",
     desc: "Refrigerant and adsorption dryers, air and water cooled, with up to 20 bar pressure for efficient industrial use.",
-    img: "/argenta/v1/images/dryer.jpg",
+    img: "/images/dryer.jpg",
   },
   {
     title: "Industrial Pumps",
     desc: "Pumps for water and chemical liquids, suitable for heavy and light industrial applications with custom spare parts.",
-    img: "/argenta/v1/images/industrialpump.jpg",
+    img: "/images/industrialpump.jpg",
   },
   {
     title: "Spare Parts Kits",
     desc: "Pre-packaged kits for generators, turbines, engines, and compressors, ensuring quick maintenance and lifecycle support.",
-    img: "/argenta/v1/images/sparepart.jpg",
+    img: "/images/sparepart.jpg",
   },
 ];
 

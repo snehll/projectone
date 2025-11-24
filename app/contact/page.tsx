@@ -32,7 +32,7 @@ export default function Contact() {
       ? `Interested in ${topic.charAt(0).toUpperCase() + topic.slice(1)}`
       : "",
     agree: false,
-    companyname:"argenta",
+    companyname: "argenta",
   });
   const [status, setStatus] = useState<{
     success: boolean;
@@ -48,7 +48,7 @@ export default function Contact() {
       service: formData.service,
       companyname: "argenta",
     };
-    console.log(data)
+    console.log(data);
     try {
       const response = await fetch(
         "https://email-xi-pearl.vercel.app/api/send-email",
@@ -114,8 +114,7 @@ export default function Contact() {
               sx={{ display: isMobile ? "none" : "block" }}
               width={isMobile ? 2 / 2 : 1 / 2}>
               <Typography paragraph>
-                Address: 1 Nolu, Bostanci Mahallesi Nasip 2 Nolu Sokak No: 17
-                Ortahisar / Trabzon, Turkey
+                Republic of Türkiye, Trabzon, Ortahisar, 1 NOLU BOSTANCI MAH. 4003 NOLU SK. NO:15
               </Typography>
               <Typography paragraph>Phone: +90(538)4439685</Typography>
               <Typography paragraph>Email: office@argentatek.com</Typography>
@@ -196,8 +195,7 @@ export default function Contact() {
               sx={{ display: isMobile ? "block" : "none", mt: 5 }}
               width={isMobile ? 2 / 2 : 1 / 2}>
               <Typography paragraph>
-                Address: 1 Nolu, Bostanci Mahallesi Nasip 2 Nolu Sokak No: 17
-                Ortahisar / Trabzon, Turkey
+                Republic of Türkiye, Trabzon, Ortahisar, 1 NOLU BOSTANCI MAH. 4003 NOLU SK. NO:15
               </Typography>
               <Typography paragraph>Phone: +90(538)4439685</Typography>
               <Typography paragraph>Email: office@argentatek.com</Typography>

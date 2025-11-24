@@ -14,16 +14,16 @@ import { useState, useEffect } from "react";
 
 // Hero images array (Unsplash placeholders for equipment and services)
 const HERO_IMAGES = [
-  "/argenta/v1/images/equipments.png",
-  "/argenta/v1/images/sparepart.jpg",
-  "/argenta/v1/images/rental.jpg",
-  "/argenta/v1/images/logistics.jpg",
-  "/argenta/v1/images/engines.jpg",
-  "/argenta/v1/images/turbines.jpg",
-  "/argenta/v1/images/compressor.jpg",
-  "/argenta/v1/images/dryer.jpg",
-  "/argenta/v1/images/industrialpump.jpg",
-  "/argenta/v1/images/aboutus.jpg",
+  "/images/equipments.png",
+  "/images/sparepart.jpg",
+  "/images/rental.jpg",
+  "/images/logistics.jpg",
+  "/images/engines.jpg",
+  "/images/turbines.jpg",
+  "/images/compressor.jpg",
+  "/images/dryer.jpg",
+  "/images/industrialpump.jpg",
+  "/images/aboutus.jpg",
 ];
 // Typing animation variants
 const containerVariants: Variants = {
@@ -47,7 +47,7 @@ const TypingText = ({
   variant,
 }: {
   text: string;
-  variant: "h2" | "h5" | "h6";
+  variant: "h2" | "h5" | "h6" | "h4" | "h3";
 }) => (
   <Typography
     variant={variant}
@@ -119,7 +119,7 @@ export const HeroSection = () => {
           }}>
           <TypingText
             text="ARGENTA 3D TEKNOLOJI OTOMOTIV YATIRIM ULUSLARARASI TICARET LIMITED SIRKETI"
-            variant={isMobile ? "h5" : "h2"}
+            variant={isMobile ? "h5" : "h3"}
           />
           <TypingText
             text="Your trusted partner for industrial equipment and spare parts, delivering efficiency worldwide."
