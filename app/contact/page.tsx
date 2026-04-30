@@ -114,7 +114,8 @@ export default function Contact() {
               sx={{ display: isMobile ? "none" : "block" }}
               width={isMobile ? 2 / 2 : 1 / 2}>
               <Typography paragraph>
-                Republic of Türkiye, Trabzon, Ortahisar, 1 NOLU BOSTANCI MAH. 4003 NOLU SK. NO:15
+                Kozyatagi Mah. Kaya Sultan Sk. Hayriye Is Merkezi
+                No: 83 Ic Kapi No: 3 Kadikoy / ISTANBUL
               </Typography>
               <Typography paragraph>Phone: +90(538)4439685</Typography>
               <Typography paragraph>Email: office@argentatek.com</Typography>
@@ -195,7 +196,8 @@ export default function Contact() {
               sx={{ display: isMobile ? "block" : "none", mt: 5 }}
               width={isMobile ? 2 / 2 : 1 / 2}>
               <Typography paragraph>
-                Republic of Türkiye, Trabzon, Ortahisar, 1 NOLU BOSTANCI MAH. 4003 NOLU SK. NO:15
+                Kozyatagi Mah. Kaya Sultan Sk. Hayriye Is Merkezi
+                No: 83 Ic Kapi No: 3 Kadikoy / ISTANBUL
               </Typography>
               <Typography paragraph>Phone: +90(538)4439685</Typography>
               <Typography paragraph>Email: office@argentatek.com</Typography>
