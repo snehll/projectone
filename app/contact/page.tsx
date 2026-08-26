@@ -117,7 +117,7 @@ export default function Contact() {
                 Kozyatagi Mah. Kaya Sultan Sk. Hayriye Is Merkezi
                 No: 83 Ic Kapi No: 3 Kadikoy / ISTANBUL
               </Typography>
-              <Typography paragraph>Phone: +90(538)4439685</Typography>
+              {/* <Typography paragraph>Phone: +90(538)4439685</Typography> */}
               <Typography paragraph>Email: office@argentatek.com</Typography>
             </Grid>
             <Grid width={isMobile ? 2 / 2 : 1 / 2}>
@@ -199,7 +199,7 @@ export default function Contact() {
                 Kozyatagi Mah. Kaya Sultan Sk. Hayriye Is Merkezi
                 No: 83 Ic Kapi No: 3 Kadikoy / ISTANBUL
               </Typography>
-              <Typography paragraph>Phone: +90(538)4439685</Typography>
+              {/* <Typography paragraph>Phone: +90(538)4439685</Typography> */}
               <Typography paragraph>Email: office@argentatek.com</Typography>
             </Grid>
           </Grid>
